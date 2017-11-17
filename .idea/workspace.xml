@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccdfeab6-abcd-4afa-bc7c-2e9b2842bfad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/personal.3dedf556e5dc.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/personal.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/img/background.33812537b5ba.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/img/background.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/personal.3dedf556e5dc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/personal.b70f437f2735.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/css/personal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/staticfiles/staticfiles.json" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/App_Calculo/static/css/personal.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/App_Calculo/static/img/background.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/App_Calculo/templates/base.html" afterPath="" />
