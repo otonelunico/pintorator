@@ -39,7 +39,6 @@ class Calculo(View):
         form = CalcForm(request.POST)
 
 class Logout(View):
-
     template = 'logout.html'
 
     def get(self, request, *args, **kwargs):
