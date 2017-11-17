@@ -1,4 +1,13 @@
 {% extends 'base.html' %}
+
+
+
+{% block head %}
+{% if not request.session.user %}
+    <META HTTP-EQUIV='Refresh' CONTENT="0; URL={% url 'calculo:login' %}">
+{% endif %}
+{%  endblock head %}
+
 {% block content %}
       <script>
     var area=0;

@@ -1,7 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
-
+{% block head %}
+{% if request.session.user %}
+    <META HTTP-EQUIV='Refresh' CONTENT="0; URL={% url 'pintura' %}">
+{% endif %}
+{%  endblock head %}
 
 {% block login_content %}
 <div class="container">
