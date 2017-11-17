@@ -23,3 +23,14 @@ urlpatterns = [
     url(r'^logout/$', Logout.as_view(), name='logout'),
     url(r'^calculo/$', Calculo.as_view(), name='pintura'),
 ]
+
+
+from django.conf.urls.static import static
+from django.conf import settings
+
+urlpatterns += [
+    # ... the rest of your URLconf goes here ...
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += [
+    # ... the rest of your URLconf goes here ...
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
