@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block login_content %}
+<div class="container">
+    <div class="row justify-content-center">
+
+        <div class="col-lg-4 card-form">
+            <div class="card">
+                <div class="card-body">
+
+                    <form class="form-signin" method="post">
+                        {% csrf_token %}
+
+                        <div class="form-group">
+                            <h4 class="text-center">Inicia sesion</h4>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="username">Usuario</label>
+                            <div class="input-group mb-2 mb-sm-0">
+                                <div class="input-group-addon"><i class="material-icons">person</i></div>
+                                <input type="text" class="form-control" id="username" name="username" placeholder="Usuario" autofocus required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="password">Contraseña</label>
+                            <div class="input-group mb-2 mb-sm-0">
+                                <div class="input-group-addon"><i class="material-icons">lock</i></div>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-block" type="submit">Ingresar</button>
+                        </div>
+                        <div>
+                            {{ error }}
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-xs-6" style="margin-left: 50px">
+                            <i class="material-icons" style="font-size: 33pt">account_box</i>
+                        </div>
+                        <div class="col-xs-6" style="margin-left: 20px">
+
+                            <p>Usuario: user <br>Contraseña: 12345</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--col-->
+    </div><!--row-->
+
+    <div class="row justify-content-center">
+    </div>
+
+</div>
+{% endblock login_content %}
