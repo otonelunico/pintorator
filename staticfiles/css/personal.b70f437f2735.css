@@ -1,0 +1,184 @@
+/* ========== common ==========*/
+
+body{
+    font-size: 0.9rem;
+    color: #292b2c;
+    background-color: #fac38a;
+    background-image: url("../img/background.33812537b5ba.jpeg");
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: rgba(201, 161, 120, 0.91);
+}
+
+/*Google Material Icons Size*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-2x { font-size: 1.6rem; }
+
+.material-icons-white{
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: #c25b00;
+}
+
+a:hover{
+    color: #ab4f00;
+}
+
+
+/* ========== navbar ==========*/
+nav{
+    /*margin-bottom: 1.2rem;*/
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar{
+    background-color: #c25b00;
+    padding: .1rem 1rem;
+}
+
+.card-body {
+    background-color: rgba(168, 56, 0, 0);
+}
+
+
+/* ========== profile ==========*/
+
+.card-img-top{
+    height: 120px;
+}
+
+.profile {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    background-color: white;
+}
+
+.card-title{
+    margin-bottom: .4rem;
+    font-weight: 700;
+}
+
+.card-text{
+    margin-bottom: .1rem;
+}
+
+
+/* ========== wall ==========*/
+
+.wall div.card{
+    margin-bottom: .6rem;
+}
+
+.wall div.card-body{
+    padding: .8rem;
+}
+
+.img-wall{
+    width: 60px;
+}
+
+.time-wall{
+    color: rgba(115, 82, 44, 0.81);
+    font-size: 90%;
+    font-weight: normal;
+}
+
+/* ========== menu ==========*/
+.menu {
+    margin-top: 2rem;
+}
+
+.card-menu{
+    margin-bottom: .6rem;
+}
+
+.card-menu .card-body{
+    padding: .5rem 1.25rem .3rem 1.25rem;
+}
+
+.card-menu a:hover{
+    text-decoration: none;
+}
+
+.card-menu p{
+    font-size: 1.1rem;
+    margin-bottom: inherit;
+}
+/*active effect*/
+.card-menu.active{
+    background-color: #c25b00;
+}
+.card-menu.active .material-icons, .card-menu.active p{
+    color: white;
+}
+
+/* ========== form ==========*/
+
+.card-form{
+    margin-top: 5rem;
+}
+
+.div-help{
+    margin-top: 3rem;
+    color: #833200;
+    font-size: 14px;
+}
+
+.div-help p{
+    margin-bottom: 0;
+}
+
+.div-help p i{
+    vertical-align: middle;
+}
+/* ========== btn ==========*/
+
+.btn-primary{
+    background-color: #c25b00;
+    border-color: #984e12;
+}
+
+.btn-primary:focus, .btn-primary:hover{
+    background-color: #ab4f00;
+    border-color: #864312;
+}
+.btn-primary::selection{
+    background-color: #c25b00;
+    border-color: #864312;
+}
+
+/* =========== list =========*/
+.list-div {
+    margin: 20px;
+}
+
+
+.list-div .list-header{
+    font-weight: bold;
+   /* border-bottom: 1px solid #596b7d; */
+    padding-bottom: 15px;
+}
+.list-div .list-body{
+    border-bottom: 1px solid #833200;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.list-body:hover{
+    cursor: pointer;
+    background-color: rgba(231, 118, 35, 0.62);
+    border-bottom: 1px solid #833200;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
